@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="curtain"></div>
+    <button id="intructionsBtn" class="visible">👤</button>
+    <div id="instructions">
+        <p>Welcome to who's the impostor game</p>
+        <p>Instructions:</p>
+        <p>1. Players must be 3 or more to play</p>
+        <p>2. Type how many are the players</p>
+        <p>3. Make sure that the other players are not looking on the device </p>
+        <p>4. Click the start button</p>
+        <p>5. Once the word pops up, remember it and once the next player message show up, tell the next player to view their word</p>
+        <p>6. continue the step 5 until the last player</p>
+    </div>
+    <div style="height: 50px;"></div>
+    <div class="container">
+        <form>
+            <label for="playerNum">Number of players</label><br>
+            <input id="playerNum" type="number" placeholder="0"><br>
+            <button id="startButton">Start</button>
+        </form>
+    </div>
+    <div style="height: 150px;"></div>
+    <div id="wordsRevealContainer">
+        <p id="showWord"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
